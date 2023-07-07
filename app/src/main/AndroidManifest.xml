@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_padhai">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EPadhai">
+        <activity
+            android:name=".AboutNavigation"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".PolicyNavigation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".viewResult"
+            android:exported="false" />
+        <activity
+            android:name=".virtualClass"
+            android:exported="true" />
+        <activity
+            android:name=".AskADoubt"
+            android:exported="false" />
+        <activity
+            android:name=".SelectTestStudent"
+            android:exported="false" />
+        <activity
+            android:name=".SelectTestTeacher"
+            android:exported="false" />
+
+        <activity
+            android:name=".FacultyPanel"
+             />
+
+        <activity android:name=".StudentPanel" />
+        <activity android:name=".pdfViewer" />
+
+        <activity android:name=".FullPage" />
+        <activity android:name=".ShareClass" />
+        <activity android:name=".viewClass" />
+        <activity android:name=".AddClass" />
+
+
+        <activity
+            android:name=".addQues"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivityStudent"
+            android:exported="false" />
+        <activity
+            android:name=".TestActivityTeacher"
+            android:exported="true" />
+        <activity
+            android:name=".DoubtSolvingPanelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginChoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Policy"
+                android:textSize="35sp"
+                android:fontFamily="@font/montserratregular"
+                android:textAlignment="center"
+                android:layout_margin="16dp"
+                android:textColor="@color/cardview_dark_background"/>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:layout_margin="6dp"
+                android:src="@drawable/policy_vect"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="@string/updation_date"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:layout_marginTop="16dp"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="Interpretation"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="The words of which the initial letter is capitalized have meanings defined under the following conditions.
+The following definitions shall have the same meaning regardless of whether they appear in singular or in plural."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                android:justificationMode="inter_word"
+                android:text="Definitions"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="For the purposes of this Policy:"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/policy_definitions_p1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/policy_definitions_p2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/policy_definitions_p3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/policy_definitions_p4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="Disclaimer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/disclaimer_p1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/disclaimer_p2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/disclaimer_p3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/disclaimer_p4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="External Links Disclaimer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/el_disclaimer_p1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/el_disclaimer_p2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="Errors and Omissions Disclaimer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/eo_disclaimer_p1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/eo_disclaimer_p2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="Fair Use Disclaimer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/fu_disclaimer_p1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/fu_disclaimer_p2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="No Responsibility Disclaimer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/nr_disclaiemr_p1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/nr_disclaimer_p2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="&quot;Use at Your Own Risk&quot; Disclaimer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/or_disclaimer_p1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="24dp"
+                android:justificationMode="inter_word"
+                android:text="@string/or_disclaimer_p2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="If you have any questions about this Disclaimer, You can contact Us:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:textSize="15sp"
+                android:fontFamily="@font/montserratregular"
+                android:layout_marginHorizontal="16dp"
+                android:justificationMode="inter_word"
+                android:text="By email: (Contact details are under 'About' section.)"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="24dp"
+                android:background="@color/purple_500"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

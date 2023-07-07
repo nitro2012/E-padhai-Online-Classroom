@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/about"
+        android:title="About" />
+    <item android:id="@+id/policy"
+        android:title="Policy"/>
+    <item
+        android:id="@+id/s"
+        android:title="Logged in"
+        android:icon="@drawable/faculty_icon"
+        android:visible="false"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/lg"
+                android:title="Logout"
+                >
+
+            </item>
+        </menu>
+    </item>
+
+</menu>

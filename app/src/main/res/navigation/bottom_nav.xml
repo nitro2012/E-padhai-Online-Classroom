@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@+id/nav_home">
+
+    <fragment android:id="@+id/nav_home"
+        android:label="Home"
+        android:name="com.example.e_padhai.LoginHomeFragment"
+        tools:layout="@layout/fragment_login_home"/>
+
+    <fragment android:id="@+id/nav_notice"
+        android:label="Notices"
+        android:name="com.example.e_padhai.FeedsFragment"
+        tools:layout="@layout/fragment_feeds"/>
+
+    <fragment android:id="@+id/nav_fac"
+        android:label="Faculty"
+        android:name="com.example.e_padhai.TrendingFragment"
+        tools:layout="@layout/fragment_trending"/>
+
+</navigation>

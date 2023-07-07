@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">E-Padhai</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_button_text">LOGIN</string>
+    <string name="password_input_text">Password</string>
+    <string name="username_input_text">Username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_details"><u>Contact Details</u></string>
+    <string name="about_content">E-Padhai is an android application centralised on remote teaching and learning services. It includes realtime upload/ delete of tests, classroom etc. through a singal window interface. The admin can also add faculty and students in a class and subsequently only that faculty and students will have their personalised account access with some amazing features for each of them. The login activity is controlled by Google Firebase authentication hence giving an edge of security. The app is basically a combined version of university website, its ERP portal and google classroom. The potential of app allows it to be highly scalable and its application can be easily implemented within any organisation which requires a single channel for information sharing.
+ For any further details or any professional work, they are available at the under mentioned contact details.</string>
+    <string name="policy_interpretation">The words of which the initial letter is capitalized have meanings defined under the following conditions.
+The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</string>
+    <string name="updation_date">Last Updated: 01 August, 2022</string>
+    <string name="policy_definitions_p1">Company (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Disclaimer) refers to E-Padhai.</string>
+    <string name="policy_definitions_p2">Service refers to the Application.</string>
+    <string name="policy_definitions_p3">You means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</string>
+    <string name="policy_definitions_p4">Application means the software program provided by the Company downloaded by You on any electronic device named E-Padhai.</string>
+    <string name="disclaimer_p1">The information contained on the Service is for general information purposes only.</string>
+    <string name="disclaimer_p2">The Company assumes no responsibility for errors or omissions in the contents of the Service.</string>
+    <string name="disclaimer_p3">In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.</string>
+    <string name="disclaimer_p4">The Company does not warrant that the Service is free of viruses or other harmful components.</string>
+    <string name="el_disclaimer_p1">The Service may contain links to external websites that are not provided or maintained by or in any way affiliated with the Company.</string>
+    <string name="el_disclaimer_p2">Please note that the Company does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.</string>
+    <string name="eo_disclaimer_p1">The information given by the Service is for general guidance on matters of interest only. Even if the Company takes every precaution to insure that the content of the Service is both current and accurate, errors can occur. Plus, given the changing nature of laws, rules and regulations, there may be delays, omissions or inaccuracies in the information contained on the Service.</string>
+    <string name="eo_disclaimer_p2">The Company is not responsible for any errors or omissions, or for the results obtained from the use of this information.</string>
+    <string name="fu_disclaimer_p1">The Company may use copyrighted material which has not always been specifically authorized by the copyright owner. The Company is making such material available for criticism, comment, news reporting, teaching, scholarship, or research. The Company believes this constitutes a &quot;fair use&quot; of any such copyrighted material as provided for in section xxx of the Indian law.</string>
+    <string name="fu_disclaimer_p2">If You wish to use copyrighted material from the Service for your own purposes that go beyond fair use, You must obtain permission from the copyright owner.</string>
+    <string name="nr_disclaiemr_p1">The information on the Service is provided with the understanding that the Company is not herein engaged in rendering legal, accounting, tax, or other professional advice and services. As such, it should not be used as a substitute for consultation with professional accounting, tax, legal or other competent advisers.</string>
+    <string name="nr_disclaimer_p2">In no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your access or use or inability to access or use the Service.</string>
+    <string name="or_disclaimer_p1">All information in the Service is provided &quot;as is&quot;, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose.</string>
+    <string name="or_disclaimer_p2">The Company will not be liable to You or anyone else for any decision made or action taken in reliance on the information given by the Service or for any consequential, special or similar damages, even if advised of the possibility of such damages.</string>
+
+    <string-array name="topics">
+        <item>Select Topic</item>
+        <item>General Query</item>
+        <item>Curriculum</item>
+        <item>Co-Curriculum</item>
+        <item>Information</item>
+        <item>Student</item>
+        <item>University</item>
+    </string-array>
+
+</resources>
